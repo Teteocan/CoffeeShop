@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Origen Café — Café de especialidad, tostado con propósito</title>
+  <meta name="description" content="Cafetería de especialidad con granos de origen, panadería artesanal y experiencias únicas. Descubre aromas, texturas y momentos inolvidables." />
+  <meta name="theme-color" content="#1b1b1b" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles/cafeteria_clean.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#" class="brand">
+        <svg class="brand-mark" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" fill="#c17a48"/>
+          <path d="M7 13c0-3 2.5-6 5-6s5 3 5 6-2.5 5-5 5-5-2-5-5z" fill="#4a2c2a"/>
+          <path d="M10 9c1.8 2.2 1.8 4.8 0 7" stroke="#f5efe7" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        <span>Origen Café</span>
+      </a>
+      
+      <nav class="nav">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+        <ul id="menu" class="nav-list">
+          <li><a href="#menu-section">Menú</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#testimonios">Opiniones</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+      </nav>
+      
+      <a class="btn btn-primary" href="#pedido">Pedir ahora</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="contenido" class="main">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 class="headline">
+            Café de origen
+            <span class="headline-accent">tostado con propósito</span>
+          </h1>
+          <p class="subhead">
+            Seleccionamos micro–lotes sostenibles y los tostamos con precisión para revelar dulzor, balance y aroma en cada taza.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#menu-section">Explorar menú</a>
+            <a class="btn btn-ghost" href="#valor">Nuestra historia</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="valor" class="features section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="title">Lo que nos hace únicos</h2>
+          <p class="kicker">Transparencia, técnica y hospitalidad.</p>
+        </div>
+        <div class="features-grid">
+          <article class="card reveal">
+            <div class="icon">☕</div>
+            <h3>Especialidad</h3>
+            <p>Granos trazables, puntuación SCA y perfiles de tueste diseñados para realzar terroir.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">🥐</div>
+            <h3>Panadería</h3>
+            <p>Masa madre, ingredientes locales y horneado diario: fragante, crujiente y honesto.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">👥</div>
+            <h3>Comunidad</h3>
+            <p>Catas, talleres y un equipo que sabe escuchar: un lugar para quedarse.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu-section" class="menu section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="title">Menú de temporada</h2>
+          <p class="kicker">Bebidas que rotan con la cosecha.</p>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-item reveal">
+            <h3>Espresso Doble</h3>
+            <p>Blend de la casa con notas a cacao, almendra y flor de azahar.</p>
+            <span class="price">$2.80</span>
+          </article>
+          <article class="menu-item reveal">
+            <h3>Flat White</h3>
+            <p>Leche microtexturizada sobre un ristretto sedoso y dulce.</p>
+            <span class="price">$3.50</span>
+          </article>
+          <article class="menu-item reveal">
+            <h3>V60 Filtro</h3>
+            <p>Origen único lavado, cuerpo medio y acidez brillante.</p>
+            <span class="price">$3.20</span>
+          </article>
+          <article class="menu-item reveal">
+            <h3>Cold Brew</h3>
+            <p>Extracción lenta en frío: limpio, refrescante y naturalmente dulce.</p>
+            <span class="price">$3.90</span>
+          </article>
+          <article class="menu-item reveal">
+            <h3>Chocolate Artesanal</h3>
+            <p>Cacao de origen con especias cálidas y espuma cremosa.</p>
+            <span class="price">$3.60</span>
+          </article>
+          <article class="menu-item reveal">
+            <h3>Té Chai</h3>
+            <p>Infusión de especias, dulce balanceado y final aromático.</p>
+            <span class="price">$3.40</span>
+          </article>
+        </div>
+        <div id="pedido" class="menu-cta">
+          <a class="btn btn-primary" href="#">Pedir para llevar</a>
+          <a class="btn btn-ghost" href="#">Reservar mesa</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeria" class="gallery section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="title">Galería</h2>
+          <p class="kicker">Texturas, luz y vapor.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="reveal">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=500&auto=format&fit=crop" alt="Latte art con forma de corazón" />
+            <figcaption>Latte art</figcaption>
+          </figure>
+          <figure class="reveal">
+            <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?q=80&w=500&auto=format&fit=crop" alt="Granos de café tostados brillantes" />
+            <figcaption>Origen tostado</figcaption>
+          </figure>
+          <figure class="reveal">
+            <img src="https://images.unsplash.com/photo-1517705008128-361805f42e86?q=80&w=500&auto=format&fit=crop" alt="Método V60 extrayendo café" />
+            <figcaption>Filtro V60</figcaption>
+          </figure>
+          <figure class="reveal">
+            <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=500&auto=format&fit=crop" alt="Interior cálido de cafetería" />
+            <figcaption>Espacio cálido</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonios" class="testimonials section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="title">Experiencias de nuestros clientes</h2>
+          <p class="kicker">Historias reales de amantes del café como tú</p>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="testimonials-stats">
+          <div class="stat-item">
+            <span class="stat-number" data-target="4.9">0</span>
+            <span class="stat-label">Rating promedio</span>
+            <div class="rating-visual">★★★★★</div>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="1200">0</span>
+            <span class="stat-label">Reseñas verificadas</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="95">0</span>
+            <span class="stat-label">% Recomendación</span>
+          </div>
+        </div>
+
+        <!-- Rating Filter -->
+        <div class="rating-filter">
+          <span class="filter-label">Filtrar por calificación:</span>
+          <div class="rating-buttons">
+            <button class="rating-btn active" data-rating="all">Todas</button>
+            <button class="rating-btn" data-rating="5">5★</button>
+            <button class="rating-btn" data-rating="4">4★</button>
+            <button class="rating-btn" data-rating="3">3★</button>
+          </div>
+        </div>
+
+        <!-- Testimonials Grid -->
+        <div class="testimonials-grid">
+          <article class="testimonial-card" data-rating="5">
+            <div class="card-header">
+              <div class="reviewer-info">
+                <div class="avatar">👩‍💼</div>
+                <div class="reviewer-details">
+                  <strong class="reviewer-name">María Elena González</strong>
+                  <span class="reviewer-badge">Cliente frecuente</span>
+                  <div class="review-meta">
+                    <div class="stars">★★★★★</div>
+                    <time class="review-date">Hace 2 días</time>
+                  </div>
+                </div>
+              </div>
+              <div class="platform-badge">Google</div>
+            </div>
+            <p class="quote-text">"Descubrí este lugar por casualidad y ahora es mi segunda casa. El flat white es perfecto, el ambiente es acogedor y el personal siempre tiene una sonrisa."</p>
+            <div class="review-actions">
+              <button class="helpful-btn" data-helpful="12">👍 12</button>
+              <button class="reply-btn">💬 Responder</button>
+            </div>
+          </article>
+
+          <article class="testimonial-card" data-rating="5">
+            <div class="card-header">
+              <div class="reviewer-info">
+                <div class="avatar">👨‍🍳</div>
+                <div class="reviewer-details">
+                  <strong class="reviewer-name">Carlos Mendoza</strong>
+                  <span class="reviewer-badge">Experto en café</span>
+                  <div class="review-meta">
+                    <div class="stars">★★★★★</div>
+                    <time class="review-date">Hace 1 semana</time>
+                  </div>
+                </div>
+              </div>
+              <div class="platform-badge verified">Verificada</div>
+            </div>
+            <p class="quote-text">"Como catador profesional, puedo confirmar que manejan granos de calidad excepcional. Su tueste es impecable y la extracción siempre consistente."</p>
+            <div class="review-actions">
+              <button class="helpful-btn" data-helpful="28">👍 28</button>
+              <button class="reply-btn">💬 Responder</button>
+            </div>
+          </article>
+
+          <article class="testimonial-card" data-rating="4">
+            <div class="card-header">
+              <div class="reviewer-info">
+                <div class="avatar">👩‍💻</div>
+                <div class="reviewer-details">
+                  <strong class="reviewer-name">Ana Sofía Ruiz</strong>
+                  <span class="reviewer-badge">Nuevo cliente</span>
+                  <div class="review-meta">
+                    <div class="stars">★★★★☆</div>
+                    <time class="review-date">Hace 3 días</time>
+                  </div>
+                </div>
+              </div>
+              <div class="platform-badge">TripAdvisor</div>
+            </div>
+            <p class="quote-text">"Excelente café y atención personalizada. Me encanta que puedas elegir el origen del grano. Solo me gustaría más opciones veganas."</p>
+            <div class="review-actions">
+              <button class="helpful-btn" data-helpful="8">👍 8</button>
+              <button class="reply-btn">💬 Responder</button>
+            </div>
+          </article>
+        </div>
+
+        <!-- Load More & Write Review -->
+        <div class="testimonials-actions">
+          <button class="btn btn-ghost" id="loadMoreReviews">Ver más reseñas</button>
+          <button class="btn btn-primary" id="writeReviewBtn">✍️ Escribir reseña</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="ubicacion" class="location section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="title">Visítanos en nuestro espacio</h2>
+          <p class="kicker">Dos ubicaciones, un mismo compromiso con la calidad</p>
+        </div>
+        
+        <div class="locations-grid">
+          <!-- Main Location -->
+          <div class="location-card main-location">
+            <div class="location-header">
+              <div class="location-badge">📍 Principal</div>
+              <h3>Origen Café Centro</h3>
+              <p class="address">Av. Aromas 123, Barrio Centro</p>
+            </div>
+            
+            <div class="location-details">
+              <div class="detail-group">
+                <h4>🕒 Horarios</h4>
+                <ul class="schedule">
+                  <li><span>Lunes - Viernes:</span> 7:00 - 21:00</li>
+                  <li><span>Sábados:</span> 8:00 - 22:00</li>
+                  <li><span>Domingos:</span> 8:00 - 20:00</li>
+                </ul>
+              </div>
+              
+              <div class="detail-group">
+                <h4>🌟 Servicios</h4>
+                <div class="services-tags">
+                  <span>WiFi gratuito</span>
+                  <span>Pet friendly</span>
+                  <span>Catas privadas</span>
+                  <span>Eventos corporativos</span>
+                </div>
+              </div>
+              
+              <div class="detail-group">
+                <h4>📞 Contacto</h4>
+                <div class="contact-links">
+                  <a href="tel:+1234567890">📱 +123 456 7890</a>
+                  <a href="mailto:centro@origencafe.com">✉️ centro@origencafe.com</a>
+                  <a href="https://wa.me/1234567890">💬 WhatsApp</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="location-map">
+              <div class="map-placeholder">
+                <div class="map-icon">🗺️</div>
+                <p>Mapa interactivo</p>
+                <button class="btn btn-primary" onclick="openDirections(40.4168, -3.7038)">🧭 Cómo llegar</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Location -->
+          <div class="location-card secondary-location">
+            <div class="location-header">
+              <div class="location-badge secondary">🏢 Sucursal</div>
+              <h3>Origen Café Business</h3>
+              <p class="address">Zona Corporativa, Torre Azul, Local 105</p>
+            </div>
+            
+            <div class="location-details">
+              <div class="detail-group">
+                <h4>🕒 Horarios</h4>
+                <ul class="schedule">
+                  <li><span>Lunes - Viernes:</span> 6:30 - 19:00</li>
+                  <li><span>Sábados:</span> 8:00 - 15:00</li>
+                  <li><span>Domingos:</span> Cerrado</li>
+                </ul>
+              </div>
+              
+              <div class="detail-group">
+                <h4>🎯 Especialidades</h4>
+                <div class="services-tags">
+                  <span>Desayunos ejecutivos</span>
+                  <span>Reuniones privadas</span>
+                  <span>Express delivery</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="location-map">
+              <div class="map-placeholder">
+                <div class="map-icon">🗺️</div>
+                <p>Mapa interactivo</p>
+                <button class="btn btn-ghost" onclick="openDirections(40.4200, -3.6900)">🧭 Direcciones</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Transportation Info -->
+        <div class="transportation-info">
+          <h3>🚇 Cómo llegar</h3>
+          <div class="transport-grid">
+            <div class="transport-option">
+              <div class="transport-icon">🚇</div>
+              <div class="transport-details">
+                <strong>Metro</strong>
+                <p>Línea 2 - Estación Centro (2 min caminando)</p>
+              </div>
+            </div>
+            <div class="transport-option">
+              <div class="transport-icon">🚌</div>
+              <div class="transport-details">
+                <strong>Autobús</strong>
+                <p>Líneas 15, 27, 45 - Parada Aromas</p>
+              </div>
+            </div>
+            <div class="transport-option">
+              <div class="transport-icon">🚗</div>
+              <div class="transport-details">
+                <strong>Parking</strong>
+                <p>Estacionamiento público a 50m</p>
+              </div>
+            </div>
+            <div class="transport-option">
+              <div class="transport-icon">🚴</div>
+              <div class="transport-details">
+                <strong>Bicicleta</strong>
+                <p>Estación BiciCity enfrente</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <!-- Newsletter Section -->
+    <div class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>☕ Únete a la comunidad Origen</h2>
+          <p>Recibe novedades exclusivas, invitaciones a catas y descuentos especiales.</p>
+          <form id="newsletter-form" class="newsletter-form">
+            <div class="form-group">
+              <input type="email" id="newsletter-email" placeholder="tu@email.com" required />
+              <button class="btn btn-primary" type="submit">Suscribirme</button>
+            </div>
+            <p class="form-disclaimer">Sin spam, solo café. Cancela cuando quieras.</p>
+            <div id="newsletter-feedback" class="feedback"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Footer Content -->
+    <div class="footer-content">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Brand Column -->
+          <div class="footer-brand">
+            <a href="#" class="brand">
+              <svg class="brand-mark" width="32" height="32" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" fill="#c17a48"/>
+                <path d="M7 13c0-3 2.5-6 5-6s5 3 5 6-2.5 5-5 5-5-2-5-5z" fill="#4a2c2a"/>
+                <path d="M10 9c1.8 2.2 1.8 4.8 0 7" stroke="#f5efe7" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+              <span>Origen Café</span>
+            </a>
+            <p class="brand-description">
+              Desde 2018, conectando productores de café excepcional con amantes del café que buscan experiencias auténticas.
+            </p>
+            <div class="certifications">
+              <span class="cert-badge">🌿 Comercio Justo</span>
+              <span class="cert-badge">♻️ Sostenible</span>
+              <span class="cert-badge">⭐ SCA Member</span>
+            </div>
+          </div>
+
+          <!-- Navigation Column -->
+          <nav class="footer-nav">
+            <h3>Explorar</h3>
+            <ul>
+              <li><a href="#menu-section">🍽️ Nuestro Menú</a></li>
+              <li><a href="#galeria">📸 Galería</a></li>
+              <li><a href="#testimonios">💬 Reseñas</a></li>
+              <li><a href="#ubicacion">📍 Ubicaciones</a></li>
+            </ul>
+          </nav>
+
+          <!-- Services Column -->
+          <div class="footer-services">
+            <h3>Servicios</h3>
+            <ul>
+              <li><a href="#">🎂 Eventos Corporativos</a></li>
+              <li><a href="#">🎓 Cursos de Barista</a></li>
+              <li><a href="#">📦 Café para Oficinas</a></li>
+              <li><a href="#">🚚 Delivery</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Column -->
+          <div class="footer-contact">
+            <h3>Contacto</h3>
+            <div class="contact-info">
+              <a href="tel:+1234567890" class="contact-item">
+                <span class="contact-icon">📱</span>
+                <span>+123 456 7890</span>
+              </a>
+              <a href="mailto:hola@origencafe.com" class="contact-item">
+                <span class="contact-icon">✉️</span>
+                <span>hola@origencafe.com</span>
+              </a>
+              <a href="https://wa.me/1234567890" class="contact-item">
+                <span class="contact-icon">💬</span>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-social">
+          <h3>Síguenos</h3>
+          <div class="social-links">
+            <a href="https://instagram.com/origencafe" class="social-link instagram">📷 Instagram</a>
+            <a href="https://facebook.com/origencafe" class="social-link facebook">👥 Facebook</a>
+            <a href="https://tiktok.com/@origencafe" class="social-link tiktok">🎵 TikTok</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-content">
+          <p class="copyright">© <span id="year">2024</span> Origen Café. Hecho con ❤️ y mucho ☕</p>
+          <div class="legal-links">
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Términos y Condiciones</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" title="Volver arriba">
+      <span>↑</span>
+    </button>
+  </footer>
+
+  <script src="assets/scripts/cafeteria_clean.js"></script>
+</body>
+</html>
